@@ -208,7 +208,7 @@ public class ChooseAreaActivity extends Activity{
 	}
 	
 	/**
-	 * 加载对话框
+	 * 显示进度对话框
 	 */
 	private void showProgressDialog(){
 		if (progressDialog==null) {
@@ -218,6 +218,7 @@ public class ChooseAreaActivity extends Activity{
 		}
 		progressDialog.show();
 	}
+	
 	/**
 	 * 关闭进度对话框
 	 */
